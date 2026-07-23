@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import RunwayPanel from "./components/RunwayPanel";
 
 const PHASES = [
   { id: 0, name: "Phase 0 — Clean Slate & Foundations", weeks: 1 },
@@ -118,6 +119,8 @@ export default function App() {
           {sessions.length} sessions logged
         </p>
       </div>
+
+      <RunwayPanel />
 
       <p>
         {completed.length} of {PHASES.length} phases complete
