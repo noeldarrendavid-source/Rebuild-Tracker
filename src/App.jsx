@@ -3,13 +3,14 @@ import { useState, useEffect } from "react";
 const PHASES = [
   { id: 0, name: "Phase 0 — Clean Slate & Foundations", weeks: 1 },
   { id: 1, name: "Phase 1 — TC1 Rebuild (ECS Fargate)", weeks: 3 },
-  { id: 2, name: "Phase 2 — TC2 Rebuild (EKS)", weeks: 3 },
+  { id: 2, name: "Phase 2 — TC2 Rebuild (EKS + P2 merge)", weeks: 3 },
   { id: 3, name: "Phase 3 — TC3 Rebuild (Terraform + Ansible)", weeks: 2 },
-  { id: 4, name: "Phase 4 — DevSecOps Pipeline", weeks: 2 },
-  { id: 5, name: "Phase 5 — AWS Security Monitoring", weeks: 2 },
-  { id: 6, name: "Phase 6 — ML Inference on EKS (Flagship)", weeks: 3 },
-  { id: 7, name: "Phase 7 — Scaling & Optimization", weeks: 1 },
-  { id: 8, name: "Phase 8 — Portfolio & Career System", weeks: 1 },
+  { id: 4, name: "Phase 4 — Legacy Migration (Rehost + Replatform)", weeks: 1 },
+  { id: 5, name: "Phase 5 — DevSecOps Pipeline", weeks: 2 },
+  { id: 6, name: "Phase 6 — AWS Security Monitoring", weeks: 2 },
+  { id: 7, name: "Phase 7 — ML Inference on EKS (Flagship)", weeks: 3 },
+  { id: 8, name: "Phase 8 — Scaling & Optimization", weeks: 1 },
+  { id: 9, name: "Phase 9 — Portfolio & Career System", weeks: 1 },
 ];
 
 const WEEKLY_TARGET_HOURS = 37;
